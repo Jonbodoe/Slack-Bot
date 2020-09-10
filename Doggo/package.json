@@ -4,12 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "ngrok": "ngrok http 3000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@slack/bolt": "^2.3.0",
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "ngrok": "^3.3.0"
   }
 }
